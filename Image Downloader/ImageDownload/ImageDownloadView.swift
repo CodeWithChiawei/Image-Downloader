@@ -36,7 +36,7 @@ class ImageDownloadView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .white
+        backgroundColor = .orange
         setConstraints()
     }
     
@@ -67,9 +67,5 @@ class ImageDownloadView: UIView {
     
     func configureImage(with image: UIImage) {
         imageView.image = image
-    }
-    
-    func printText() {
-        print("Hello World")
     }
 }

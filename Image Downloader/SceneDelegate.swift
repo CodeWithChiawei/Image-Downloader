@@ -15,6 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.rootViewController = ImageDownloadViewController()
         window?.makeKeyAndVisible()
+        fatalError("VC name sucks")
     }
 }
 

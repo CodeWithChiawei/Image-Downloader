@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		581E3BC6298A2AC20041ECF4 /* ImageDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E3BC5298A2AC20041ECF4 /* ImageDownloadModel.swift */; };
 		BC2916BF298795AC007B4B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2916BE298795AC007B4B67 /* AppDelegate.swift */; };
 		BC2916C1298795AC007B4B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2916C0298795AC007B4B67 /* SceneDelegate.swift */; };
 		BC2916C8298795AE007B4B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2916C7298795AE007B4B67 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		581E3BC5298A2AC20041ECF4 /* ImageDownloadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadModel.swift; sourceTree = "<group>"; };
 		BC2916BB298795AC007B4B67 /* Image Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2916BE298795AC007B4B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC2916C0298795AC007B4B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			children = (
 				BC2916D229879603007B4B67 /* ImageDownloadViewController.swift */,
 				BC2916D42987965D007B4B67 /* ImageDownloadView.swift */,
-				581E3BC5298A2AC20041ECF4 /* ImageDownloadModel.swift */,
 			);
 			path = ImageDownload;
 			sourceTree = "<group>";
@@ -156,7 +153,6 @@
 				BC2916D829879B58007B4B67 /* NetworkManager.swift in Sources */,
 				BC2916BF298795AC007B4B67 /* AppDelegate.swift in Sources */,
 				BC2916C1298795AC007B4B67 /* SceneDelegate.swift in Sources */,
-				581E3BC6298A2AC20041ECF4 /* ImageDownloadModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
