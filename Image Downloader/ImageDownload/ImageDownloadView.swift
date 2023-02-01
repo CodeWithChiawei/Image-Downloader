@@ -70,6 +70,6 @@ class ImageDownloadView: UIView {
     }
     
     func printText() {
-        print("Hello World")
+        print("Hello World!")
     }
 }
