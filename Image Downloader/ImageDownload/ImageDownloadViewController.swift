@@ -38,7 +38,7 @@ class ImageDownloadViewController: UIViewController {
     }
     
     @objc func downloadButtonTapped() {
-        guard let text = contentView.searchBar.text, let url = URL(string: text) else { return }
+        guard let text = contentView.searchBarForImage.text, let url = URL(string: text) else { return }
         networkManager.fetchImage(url: url) { data in
             guard let image = UIImage(data: data) else { return }
             DispatchQueue.main.async {
