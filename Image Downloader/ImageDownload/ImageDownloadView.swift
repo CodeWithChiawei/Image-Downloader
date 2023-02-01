@@ -68,4 +68,8 @@ class ImageDownloadView: UIView {
     func configureImage(with image: UIImage) {
         imageView.image = image
     }
+    
+    func printText() {
+        print("Hello World")
+    }
 }
