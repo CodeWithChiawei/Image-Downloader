@@ -10,7 +10,7 @@ import UIKit
 
 class ImageDownloadView: UIView {
     
-    let searchBarForImage: UISearchBar = {
+    let searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         return searchBar
@@ -45,14 +45,14 @@ class ImageDownloadView: UIView {
     }
     
     private func setConstraints() {
-        addSubview(searchBarForImage)
+        addSubview(searchBar)
         addSubview(imageView)
         addSubview(downloadButton)
         
-        searchBarForImage.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor, constant: 150).isActive = true
-        searchBarForImage.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
-        searchBarForImage.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
-        searchBarForImage.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        searchBar.topAnchor.constraint(equalTo: layoutMarginsGuide.topAnchor, constant: 150).isActive = true
+        searchBar.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+        searchBar.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
+        searchBar.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         imageView.topAnchor.constraint(equalTo: searchBarForImage.bottomAnchor, constant: 40).isActive = true
         imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
