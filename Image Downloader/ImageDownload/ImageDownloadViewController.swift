@@ -35,6 +35,7 @@ class ImageDownloadViewController: UIViewController {
             action: #selector(downloadButtonTapped),
             for: .touchUpInside
         )
+        print("Hello World.")
     }
     
     @objc func downloadButtonTapped() {
