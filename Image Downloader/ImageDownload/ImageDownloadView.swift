@@ -54,7 +54,7 @@ class ImageDownloadView: UIView {
         searchBar.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
         searchBar.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
-        imageView.topAnchor.constraint(equalTo: searchBarForImage.bottomAnchor, constant: 40).isActive = true
+        imageView.topAnchor.constraint(equalTo: searchBar.bottomAnchor, constant: 40).isActive = true
         imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
         imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
         imageView.heightAnchor.constraint(equalToConstant: 300).isActive = true
@@ -67,5 +67,9 @@ class ImageDownloadView: UIView {
     
     func configureImage(with image: UIImage) {
         imageView.image = image
+    }
+    
+    func printText() {
+        print("Hello World")
     }
 }
