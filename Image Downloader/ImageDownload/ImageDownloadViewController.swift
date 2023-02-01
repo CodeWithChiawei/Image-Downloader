@@ -35,7 +35,8 @@ class ImageDownloadViewController: UIViewController {
             action: #selector(downloadButtonTapped),
             for: .touchUpInside
         )
-    print/hello-world
+        setConstraints()
+        print/bye-world
         print("Bye bye World.")
     }
     
